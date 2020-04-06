@@ -97,3 +97,51 @@ nav li a:hover {
 .main-button:hover {
     background: #5e9e22;
 }
+
+/* ----------------- Section Expectations */
+
+.expectations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-areas: "img img img"
+                         "title title title"
+                         "text text text"; */
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.articles {
+    padding: 10px;
+    max-width: 100%;
+}
+
+.image-expectations {
+    text-align: center;
+    /* height: 60px;*/    
+}
+
+.image-expectations img {
+    width: 138px;
+    height: 113px;;
+}
+
+.articles h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.article-text {
+    display: flex;
+    justify-content: center;
+}
+
+.article-text p {
+    width: 250px;
+    text-align: center;
+}
+
+/* .articles:nth-of-type(2){
+    text-align: center;
+    
+} */
