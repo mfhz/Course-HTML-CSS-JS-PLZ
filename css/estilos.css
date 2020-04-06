@@ -102,7 +102,7 @@ nav li a:hover {
 
 .expectations {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 350px 350px 350px;
     /* grid-template-areas: "img img img"
                          "title title title"
                          "text text text"; */
@@ -145,3 +145,43 @@ nav li a:hover {
     text-align: center;
     
 } */
+
+/* ----------------- Section Mentions */
+
+.mention-title {
+    margin-top: 8%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.mentions {
+    display: grid;
+    grid-template-columns: 239px 239px 239px 239px;
+    grid-gap: 30px;
+    justify-content: center;    
+    margin-bottom: 50px;    
+}
+
+.mention-article {
+    box-shadow: 0 0 2px 1px #00000029;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.mention-img {
+    display: flex;
+    justify-content: center;    
+}
+
+.mention-img img {    
+    height: 104.55px;
+    width: 2100%;
+}
+
+.mention-article h3 {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.mention-text {
+}
