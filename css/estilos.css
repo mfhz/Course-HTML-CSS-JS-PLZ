@@ -31,6 +31,8 @@ nav {
     color: var(--white-color);
     justify-content: space-between;
     align-items: center;
+    margin: auto;
+
 }
 
 nav ul {
@@ -59,6 +61,8 @@ nav li a:hover {
     text-align: center;
     font-size: 20px;
     color: #313337;
+    margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .products {
@@ -74,7 +78,7 @@ nav li a:hover {
 
 .product {
     padding: 10px;
-    margin-top: -340px;
+    margin-top: -420px;
 }
 
 .product .content {
@@ -184,9 +188,12 @@ nav li a:hover {
 .mentions {
     display: grid;
     grid-template-columns: 239px 239px 239px 239px;
-    grid-gap: 30px;
-    justify-content: center;    
-    margin-bottom: 50px;    
+    grid-gap: 50px;
+    justify-content: center;
+    max-width: 1366px;
+    margin: 0 auto;    
+    margin-bottom: 50px;
+    /* padding: 0 25px;     */
 }
 
 .mention-article {
