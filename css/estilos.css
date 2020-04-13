@@ -243,7 +243,12 @@ h1 {
     margin: 0 16px;
 }
 
-.text-footer:nth-of-type(2) {
+.contact a {
+    color: var(--green-color);
+    text-decoration: none;
+}
+
+.option:nth-of-type(2) {
     justify-self: end;
 }
 
